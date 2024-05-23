@@ -1,0 +1,3686 @@
+{
+    "report_data_sources": {
+        "SnpEff": {
+            "all_sections": {
+                "chr1.imputed.poly_subset": "/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/annotated/snpeff/chr1.imputed.poly_subset.csv"
+            }
+        },
+        "VEP": {
+            "all_sections": {
+                "chr1.imputed.poly_subset": "/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/annotated/vep/chr1.imputed.poly_subset.vep.html"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "chr1.imputed.poly_subset": {
+                "Genome": "GRCh37.75",
+                "Number_of_variants_before_filter": 99893.0,
+                "Number_of_known_variants (i.e. non-empty ID)": 99893.0,
+                "Number_of_known_variants (i.e. non-empty ID)_percent": 100.0,
+                "Number_of_effects": 405572.0,
+                "Genome_total_length": 32036512384.0,
+                "Genome_effective_length": 249250621.0,
+                "Change_rate": 2495.0,
+                "HIGH": 110.0,
+                "HIGH_percent": 0.027122,
+                "LOW": 3023.0,
+                "LOW_percent": 0.745367,
+                "MODERATE": 2157.0,
+                "MODERATE_percent": 0.531841,
+                "MODIFIER": 400282.0,
+                "MODIFIER_percent": 98.695669,
+                "MISSENSE": 2124.0,
+                "MISSENSE_percent": 48.928818,
+                "NONSENSE": 14.0,
+                "NONSENSE_percent": 0.322506,
+                "SILENT": 2203.0,
+                "SILENT_percent": 50.748675,
+                "Missense_Silent_ratio": 0.96414,
+                "Type": "Count",
+                "3_prime_UTR_variant": 3893.0,
+                "3_prime_UTR_variant_percent": 0.957989,
+                "5_prime_UTR_premature_start_codon_gain_variant": 143.0,
+                "5_prime_UTR_premature_start_codon_gain_variant_percent": 0.035189,
+                "5_prime_UTR_variant": 998.0,
+                "5_prime_UTR_variant_percent": 0.245588,
+                "conservative_inframe_deletion": 1.0,
+                "conservative_inframe_deletion_percent": 0.000246,
+                "conservative_inframe_insertion": 5.0,
+                "conservative_inframe_insertion_percent": 0.00123,
+                "disruptive_inframe_deletion": 30.0,
+                "disruptive_inframe_deletion_percent": 0.007382,
+                "disruptive_inframe_insertion": 7.0,
+                "disruptive_inframe_insertion_percent": 0.001723,
+                "downstream_gene_variant": 57524.0,
+                "downstream_gene_variant_percent": 14.155503,
+                "frameshift_variant": 31.0,
+                "frameshift_variant_percent": 0.007628,
+                "initiator_codon_variant": 1.0,
+                "initiator_codon_variant_percent": 0.000246,
+                "intergenic_region": 40265.0,
+                "intergenic_region_percent": 9.908409,
+                "intragenic_variant": 1.0,
+                "intragenic_variant_percent": 0.000246,
+                "intron_variant": 236724.0,
+                "intron_variant_percent": 58.253029,
+                "missense_variant": 2118.0,
+                "missense_variant_percent": 0.521197,
+                "non_coding_transcript_exon_variant": 6321.0,
+                "non_coding_transcript_exon_variant_percent": 1.555471,
+                "non_coding_transcript_variant": 5.0,
+                "non_coding_transcript_variant_percent": 0.00123,
+                "splice_acceptor_variant": 25.0,
+                "splice_acceptor_variant_percent": 0.006152,
+                "splice_donor_variant": 37.0,
+                "splice_donor_variant_percent": 0.009105,
+                "splice_region_variant": 765.0,
+                "splice_region_variant_percent": 0.188251,
+                "start_lost": 2.0,
+                "start_lost_percent": 0.000492,
+                "stop_gained": 14.0,
+                "stop_gained_percent": 0.003445,
+                "stop_lost": 4.0,
+                "stop_lost_percent": 0.000984,
+                "stop_retained_variant": 1.0,
+                "stop_retained_variant_percent": 0.000246,
+                "synonymous_variant": 2206.0,
+                "synonymous_variant_percent": 0.542852,
+                "upstream_gene_variant": 55251.0,
+                "upstream_gene_variant_percent": 13.596163,
+                "DOWNSTREAM": 57524.0,
+                "DOWNSTREAM_percent": 14.183425,
+                "EXON": 10577.0,
+                "EXON_percent": 2.607922,
+                "INTERGENIC": 40265.0,
+                "INTERGENIC_percent": 9.927954,
+                "INTRON": 236129.0,
+                "INTRON_percent": 58.221228,
+                "SPLICE_SITE_ACCEPTOR": 23.0,
+                "SPLICE_SITE_ACCEPTOR_percent": 0.005671,
+                "SPLICE_SITE_DONOR": 37.0,
+                "SPLICE_SITE_DONOR_percent": 0.009123,
+                "SPLICE_SITE_REGION": 726.0,
+                "SPLICE_SITE_REGION_percent": 0.179006,
+                "TRANSCRIPT": 6.0,
+                "TRANSCRIPT_percent": 0.001479,
+                "UPSTREAM": 55251.0,
+                "UPSTREAM_percent": 13.622982,
+                "UTR_3_PRIME": 3893.0,
+                "UTR_3_PRIME_percent": 0.959879,
+                "UTR_5_PRIME": 1141.0,
+                "UTR_5_PRIME_percent": 0.281331,
+                "Transitions": 13735405.0,
+                "Transversions": 5649304.0,
+                "Ts_Tv_ratio": 2.431345,
+                "Het": 14241.0,
+                "Hom": 8981.0,
+                "Missing": 0.0
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "Change_rate": {
+                "title": "Change rate",
+                "scale": "RdYlBu-rev",
+                "min": 0,
+                "format": "{:,.0f}",
+                "namespace": "SnpEff",
+                "description": "Change rate",
+                "rid": "mqc-generalstats-snpeff-Change_rate",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 2495.0,
+                "dmin": 0.0
+            },
+            "Ts_Tv_ratio": {
+                "title": "Ts/Tv",
+                "description": "Transitions / Transversions ratio",
+                "format": "{:,.3f}",
+                "namespace": "SnpEff",
+                "rid": "mqc-generalstats-snpeff-Ts_Tv_ratio",
+                "scale": "GnBu",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "min": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 2.431345,
+                "dmin": 0
+            },
+            "Number_of_variants_before_filter": {
+                "title": "M Variants",
+                "description": "Number of variants before filter (millions)",
+                "scale": "PuRd",
+                "modify": 1e-06,
+                "min": 0,
+                "format": "{:,.2f}",
+                "suffix": "M",
+                "namespace": "SnpEff",
+                "rid": "mqc-generalstats-snpeff-Number_of_variants_before_filter",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "placement": 1000.0,
+                "dmax": 0.099893,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/.snakemake/conda/5ac704564f0cdc3c47fdc6b1a9f0b5bd_/bin/multiqc . --interactive",
+    "report_plot_data": {
+        "snpeff_variant_effects_region": {
+            "id": "snpeff_variant_effects_region",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 349,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "SnpEff: Counts by Genomic Region",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "reversed"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "snpeff_variant_effects_region",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "SnpEff: Counts by Genomic Region"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 405572
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "Transcript",
+                            "data": [
+                                6
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.00147939206848599
+                            ]
+                        },
+                        {
+                            "name": "Splice Site Acceptor",
+                            "data": [
+                                23
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                0.005671002929196296
+                            ]
+                        },
+                        {
+                            "name": "Splice Site Donor",
+                            "data": [
+                                37
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.009122917755663606
+                            ]
+                        },
+                        {
+                            "name": "Splice Site Region",
+                            "data": [
+                                726
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.1790064402868048
+                            ]
+                        },
+                        {
+                            "name": "UTR 5 Prime",
+                            "data": [
+                                1141
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.28133105835708583
+                            ]
+                        },
+                        {
+                            "name": "UTR 3 Prime",
+                            "data": [
+                                3893
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.95987888710266
+                            ]
+                        },
+                        {
+                            "name": "Exon",
+                            "data": [
+                                10577
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                2.607921651396053
+                            ]
+                        },
+                        {
+                            "name": "Intergenic",
+                            "data": [
+                                40265
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                9.927953606264731
+                            ]
+                        },
+                        {
+                            "name": "Upstream",
+                            "data": [
+                                55251
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                13.62298186265324
+                            ]
+                        },
+                        {
+                            "name": "Downstream",
+                            "data": [
+                                57524
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                14.183424891264684
+                            ]
+                        },
+                        {
+                            "name": "Intron",
+                            "data": [
+                                236129
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                58.22122828992139
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "snpeff_variant_effects_region",
+                "title": "SnpEff: Counts by Genomic Region",
+                "ylab": "# Reads",
+                "logswitch": true
+            }
+        },
+        "snpeff_variant_effects_impact": {
+            "id": "snpeff_variant_effects_impact",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 300,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "SnpEff: Counts by Effects Impact",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "reversed"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "snpeff_variant_effects_impact",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "SnpEff: Counts by Effects Impact"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 405572
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "High",
+                            "data": [
+                                110
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.027122187922243156
+                            ]
+                        },
+                        {
+                            "name": "Moderate",
+                            "data": [
+                                2157
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.5318414486207135
+                            ]
+                        },
+                        {
+                            "name": "Low",
+                            "data": [
+                                3023
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.7453670371721913
+                            ]
+                        },
+                        {
+                            "name": "Modifier",
+                            "data": [
+                                400282
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                98.69566932628486
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "snpeff_variant_effects_impact",
+                "title": "SnpEff: Counts by Effects Impact",
+                "ylab": "# Reads",
+                "logswitch": true
+            }
+        },
+        "snpeff_effects": {
+            "id": "snpeff_effects",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 615,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "SnpEff: Counts by Effect Types",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "snpeff_effects",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "SnpEff: Counts by Effect Types"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 406372
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "Intron Variant",
+                            "data": [
+                                236724
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                58.25302924414084
+                            ]
+                        },
+                        {
+                            "name": "Downstream Gene Variant",
+                            "data": [
+                                57524
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                14.155502839762582
+                            ]
+                        },
+                        {
+                            "name": "Upstream Gene Variant",
+                            "data": [
+                                55251
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                13.596163121474905
+                            ]
+                        },
+                        {
+                            "name": "Intergenic Region",
+                            "data": [
+                                40265
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                9.908409043930192
+                            ]
+                        },
+                        {
+                            "name": "Non Coding Transcript Exon Variant",
+                            "data": [
+                                6321
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                1.5554713415294361
+                            ]
+                        },
+                        {
+                            "name": "3 Prime UTR Variant",
+                            "data": [
+                                3893
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.9579892315415433
+                            ]
+                        },
+                        {
+                            "name": "Synonymous Variant",
+                            "data": [
+                                2206
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.542852361875326
+                            ]
+                        },
+                        {
+                            "name": "Missense Variant",
+                            "data": [
+                                2118
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.5211973265874618
+                            ]
+                        },
+                        {
+                            "name": "5 Prime UTR Variant",
+                            "data": [
+                                998
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.24558778656009764
+                            ]
+                        },
+                        {
+                            "name": "Splice Region Variant",
+                            "data": [
+                                765
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                0.1882511590365478
+                            ]
+                        },
+                        {
+                            "name": "5 Prime UTR Premature Start Codon Gain Variant",
+                            "data": [
+                                143
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.03518943234277953
+                            ]
+                        },
+                        {
+                            "name": "Splice Donor Variant",
+                            "data": [
+                                37
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.009104958018761135
+                            ]
+                        },
+                        {
+                            "name": "Frameshift Variant",
+                            "data": [
+                                31
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.007628478340043113
+                            ]
+                        },
+                        {
+                            "name": "Disruptive Inframe Deletion",
+                            "data": [
+                                30
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.00738239839359011
+                            ]
+                        },
+                        {
+                            "name": "Splice Acceptor Variant",
+                            "data": [
+                                25
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.006151998661325092
+                            ]
+                        },
+                        {
+                            "name": "Stop Gained",
+                            "data": [
+                                14
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.0034451192503420513
+                            ]
+                        },
+                        {
+                            "name": "Disruptive Inframe Insertion",
+                            "data": [
+                                7
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.0017225596251710257
+                            ]
+                        },
+                        {
+                            "name": "Conservative Inframe Insertion",
+                            "data": [
+                                5
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.0012303997322650182
+                            ]
+                        },
+                        {
+                            "name": "Non Coding Transcript Variant",
+                            "data": [
+                                5
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.0012303997322650182
+                            ]
+                        },
+                        {
+                            "name": "Stop Lost",
+                            "data": [
+                                4
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                0.0009843197858120146
+                            ]
+                        },
+                        {
+                            "name": "Start Lost",
+                            "data": [
+                                2
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.0004921598929060073
+                            ]
+                        },
+                        {
+                            "name": "Conservative Inframe Deletion",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.00024607994645300366
+                            ]
+                        },
+                        {
+                            "name": "Initiator Codon Variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.00024607994645300366
+                            ]
+                        },
+                        {
+                            "name": "Intragenic Variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.00024607994645300366
+                            ]
+                        },
+                        {
+                            "name": "Stop Retained Variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.00024607994645300366
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "snpeff_effects",
+                "title": "SnpEff: Counts by Effect Types",
+                "ylab": "# Reads",
+                "logswitch": false
+            }
+        },
+        "snpeff_variant_effects_class": {
+            "id": "snpeff_variant_effects_class",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 300,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "SnpEff: Counts by Functional Class",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "reversed"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "snpeff_variant_effects_class",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "SnpEff: Counts by Functional Class"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 4341
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "Nonsense",
+                            "data": [
+                                14
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.322506334945865
+                            ]
+                        },
+                        {
+                            "name": "Missense",
+                            "data": [
+                                2124
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                48.92881824464409
+                            ]
+                        },
+                        {
+                            "name": "Silent",
+                            "data": [
+                                2203
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                50.74867542041004
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "snpeff_variant_effects_class",
+                "title": "SnpEff: Counts by Functional Class",
+                "ylab": "# Reads",
+                "logswitch": true
+            }
+        },
+        "vep-general-stats": {
+            "id": "vep-general-stats",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": false,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "VEP General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "vep-general-stats",
+                    "dconfig": {
+                        "ylab": null
+                    },
+                    "layout": {
+                        "title": {
+                            "text": null
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "grey",
+                        "line": {
+                            "width": 2,
+                            "color": "grey"
+                        },
+                        "opacity": 0.5,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "metrics": [
+                        "Overlapped_regulatory_features",
+                        "Overlapped_transcripts",
+                        "Overlapped_genes",
+                        "Variants_filtered_out",
+                        "Variants_processed",
+                        "Lines_of_input_read"
+                    ],
+                    "header_by_metric": {
+                        "Overlapped_regulatory_features": {
+                            "title": "Overlapped regulatory features",
+                            "description": "Overlapped regulatory features",
+                            "dmax": 0,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "tt_decimals": 2,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": [
+                                    0
+                                ],
+                                "range": [
+                                    -0.005,
+                                    1.005025
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false
+                        },
+                        "Overlapped_transcripts": {
+                            "title": "Overlapped transcripts",
+                            "description": "Overlapped transcripts",
+                            "dmax": 2007.0,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "tt_decimals": 2,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -10.035,
+                                    2017.085175
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false
+                        },
+                        "Overlapped_genes": {
+                            "title": "Overlapped genes",
+                            "description": "Overlapped genes",
+                            "dmax": 565.0,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "tt_decimals": 2,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -2.825,
+                                    567.839125
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false
+                        },
+                        "Variants_filtered_out": {
+                            "title": "Variants filtered out",
+                            "description": "Variants filtered out",
+                            "dmax": 99933.0,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "tt_decimals": 2,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -499.665,
+                                    100435.163325
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false
+                        },
+                        "Variants_processed": {
+                            "title": "Variants processed",
+                            "description": "Variants processed",
+                            "dmax": 99933.0,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "tt_decimals": 2,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -499.665,
+                                    100435.163325
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false
+                        },
+                        "Lines_of_input_read": {
+                            "title": "Lines of input read",
+                            "description": "Lines of input read",
+                            "dmax": 99975.0,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": true,
+                            "modify": null,
+                            "tt_decimals": 2,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -499.875,
+                                    100477.374375
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false
+                        }
+                    },
+                    "violin_values_by_sample_by_metric": {
+                        "Overlapped_regulatory_features": {
+                            "chr1.imputed.poly_subset": 0
+                        },
+                        "Overlapped_transcripts": {
+                            "chr1.imputed.poly_subset": 2007
+                        },
+                        "Overlapped_genes": {
+                            "chr1.imputed.poly_subset": 565
+                        },
+                        "Variants_filtered_out": {
+                            "chr1.imputed.poly_subset": 0
+                        },
+                        "Variants_processed": {
+                            "chr1.imputed.poly_subset": 99933
+                        },
+                        "Lines_of_input_read": {
+                            "chr1.imputed.poly_subset": 99975
+                        }
+                    },
+                    "scatter_values_by_sample_by_metric": {
+                        "Overlapped_regulatory_features": {},
+                        "Overlapped_transcripts": {},
+                        "Overlapped_genes": {},
+                        "Variants_filtered_out": {},
+                        "Variants_processed": {},
+                        "Lines_of_input_read": {}
+                    },
+                    "all_samples": [
+                        "chr1.imputed.poly_subset"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6"
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white"
+                        }
+                    }
+                }
+            ],
+            "plot_type": "violin",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "namespace": "VEP",
+                "table_title": "VEP General Statistics"
+            },
+            "static": true,
+            "violin_height": 70,
+            "extra_height": 63
+        },
+        "variant_classes_plot": {
+            "id": "variant_classes_plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 330,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "VEP: Variant classes",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "variant_classes_plot",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "VEP: Variant classes"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Number of variants"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 99933
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "copy_number_variation",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.0010006704492009646
+                            ]
+                        },
+                        {
+                            "name": "LINE1_insertion",
+                            "data": [
+                                2
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.002001340898401929
+                            ]
+                        },
+                        {
+                            "name": "indel",
+                            "data": [
+                                3
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.0030020113476028937
+                            ]
+                        },
+                        {
+                            "name": "SVA_insertion",
+                            "data": [
+                                4
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.004002681796803858
+                            ]
+                        },
+                        {
+                            "name": "Alu_insertion",
+                            "data": [
+                                16
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.016010727187215433
+                            ]
+                        },
+                        {
+                            "name": "duplication",
+                            "data": [
+                                17
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.0170113976364164
+                            ]
+                        },
+                        {
+                            "name": "substitution",
+                            "data": [
+                                81
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.08105430638527814
+                            ]
+                        },
+                        {
+                            "name": "insertion",
+                            "data": [
+                                3944
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                3.9466442516486047
+                            ]
+                        },
+                        {
+                            "name": "deletion",
+                            "data": [
+                                5616
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                5.619765242712617
+                            ]
+                        },
+                        {
+                            "name": "SNV",
+                            "data": [
+                                90249
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                90.30950736993786
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "variant_classes_plot",
+                "title": "VEP: Variant classes",
+                "ylab": "Number of variants"
+            }
+        },
+        "consequences_all__plot": {
+            "id": "consequences_all__plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 653,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "VEP: Variant Consequences",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": "Consequences (most severe)",
+                    "uid": "consequences_all__plot_Consequences_most_severe_",
+                    "dconfig": {
+                        "name": "Consequences (most severe)"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "VEP: Variant Consequences"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Consequences (most severe)"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 99933
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "splice_acceptor_variant",
+                            "data": [
+                                12
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.012008045390411575
+                            ]
+                        },
+                        {
+                            "name": "splice_donor_variant",
+                            "data": [
+                                11
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.011007374941210612
+                            ]
+                        },
+                        {
+                            "name": "stop_gained",
+                            "data": [
+                                6
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.006004022695205787
+                            ]
+                        },
+                        {
+                            "name": "frameshift_variant",
+                            "data": [
+                                17
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.0170113976364164
+                            ]
+                        },
+                        {
+                            "name": "stop_lost",
+                            "data": [
+                                3
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.0030020113476028937
+                            ]
+                        },
+                        {
+                            "name": "start_lost",
+                            "data": [
+                                2
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.002001340898401929
+                            ]
+                        },
+                        {
+                            "name": "feature_elongation",
+                            "data": [
+                                22
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.022014749882421223
+                            ]
+                        },
+                        {
+                            "name": "inframe_insertion",
+                            "data": [
+                                5
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.005003352246004823
+                            ]
+                        },
+                        {
+                            "name": "inframe_deletion",
+                            "data": [
+                                7
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.0070046931444067515
+                            ]
+                        },
+                        {
+                            "name": "missense_variant",
+                            "data": [
+                                950
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                0.9506369267409165
+                            ]
+                        },
+                        {
+                            "name": "splice_donor_5th_base_variant",
+                            "data": [
+                                12
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.012008045390411575
+                            ]
+                        },
+                        {
+                            "name": "splice_region_variant",
+                            "data": [
+                                165
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.16511062411815916
+                            ]
+                        },
+                        {
+                            "name": "splice_donor_region_variant",
+                            "data": [
+                                46
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.04603084066324437
+                            ]
+                        },
+                        {
+                            "name": "splice_polypyrimidine_tract_variant",
+                            "data": [
+                                167
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.16711196501656111
+                            ]
+                        },
+                        {
+                            "name": "stop_retained_variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.0010006704492009646
+                            ]
+                        },
+                        {
+                            "name": "synonymous_variant",
+                            "data": [
+                                801
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.8015370298099727
+                            ]
+                        },
+                        {
+                            "name": "5_prime_UTR_variant",
+                            "data": [
+                                484
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.4843244974132669
+                            ]
+                        },
+                        {
+                            "name": "3_prime_UTR_variant",
+                            "data": [
+                                1829
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                1.8302262515885643
+                            ]
+                        },
+                        {
+                            "name": "non_coding_transcript_exon_variant",
+                            "data": [
+                                2631
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                2.6327639518477377
+                            ]
+                        },
+                        {
+                            "name": "intron_variant",
+                            "data": [
+                                52482
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                52.51718651496503
+                            ]
+                        },
+                        {
+                            "name": "upstream_gene_variant",
+                            "data": [
+                                6472
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                6.476339147228644
+                            ]
+                        },
+                        {
+                            "name": "downstream_gene_variant",
+                            "data": [
+                                4577
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                4.5800686459928155
+                            ]
+                        },
+                        {
+                            "name": "intergenic_variant",
+                            "data": [
+                                29231
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                29.2505979005934
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                },
+                {
+                    "label": "Coding consequences",
+                    "uid": "consequences_all__plot_Coding_consequences",
+                    "dconfig": {
+                        "name": "Coding consequences"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "VEP: Variant Consequences"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Consequences (most severe)"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 4659
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "stop_gained",
+                            "data": [
+                                15
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.3219575016097875
+                            ]
+                        },
+                        {
+                            "name": "frameshift_variant",
+                            "data": [
+                                28
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.6009873363382701
+                            ]
+                        },
+                        {
+                            "name": "stop_lost",
+                            "data": [
+                                4
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.08585533376261
+                            ]
+                        },
+                        {
+                            "name": "start_lost",
+                            "data": [
+                                3
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.0643915003219575
+                            ]
+                        },
+                        {
+                            "name": "inframe_insertion",
+                            "data": [
+                                14
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.30049366816913503
+                            ]
+                        },
+                        {
+                            "name": "inframe_deletion",
+                            "data": [
+                                28
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.6009873363382701
+                            ]
+                        },
+                        {
+                            "name": "missense_variant",
+                            "data": [
+                                2234
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                47.950203906417684
+                            ]
+                        },
+                        {
+                            "name": "incomplete_terminal_codon_variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.0214638334406525
+                            ]
+                        },
+                        {
+                            "name": "stop_retained_variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.0214638334406525
+                            ]
+                        },
+                        {
+                            "name": "synonymous_variant",
+                            "data": [
+                                2325
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                49.90341274951706
+                            ]
+                        },
+                        {
+                            "name": "coding_sequence_variant",
+                            "data": [
+                                6
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.128783000643915
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                },
+                {
+                    "label": "Consequences (all)",
+                    "uid": "consequences_all__plot_Consequences_all_",
+                    "dconfig": {
+                        "name": "Consequences (all)"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "VEP: Variant Consequences"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Consequences (most severe)"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 455191
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "splice_acceptor_variant",
+                            "data": [
+                                24
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.005272511978488151
+                            ]
+                        },
+                        {
+                            "name": "splice_donor_variant",
+                            "data": [
+                                41
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.009007207963250592
+                            ]
+                        },
+                        {
+                            "name": "stop_gained",
+                            "data": [
+                                15
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.0032953199865550942
+                            ]
+                        },
+                        {
+                            "name": "frameshift_variant",
+                            "data": [
+                                28
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.006151263974902843
+                            ]
+                        },
+                        {
+                            "name": "stop_lost",
+                            "data": [
+                                4
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.0008787519964146918
+                            ]
+                        },
+                        {
+                            "name": "start_lost",
+                            "data": [
+                                3
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.0006590639973110189
+                            ]
+                        },
+                        {
+                            "name": "feature_elongation",
+                            "data": [
+                                80
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.017575039928293838
+                            ]
+                        },
+                        {
+                            "name": "inframe_insertion",
+                            "data": [
+                                14
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.0030756319874514215
+                            ]
+                        },
+                        {
+                            "name": "inframe_deletion",
+                            "data": [
+                                28
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.006151263974902843
+                            ]
+                        },
+                        {
+                            "name": "missense_variant",
+                            "data": [
+                                2234
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                0.49078298999760533
+                            ]
+                        },
+                        {
+                            "name": "splice_donor_5th_base_variant",
+                            "data": [
+                                49
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                0.010764711956079975
+                            ]
+                        },
+                        {
+                            "name": "splice_region_variant",
+                            "data": [
+                                574
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                0.12610091148550828
+                            ]
+                        },
+                        {
+                            "name": "splice_donor_region_variant",
+                            "data": [
+                                110
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                0.024165679901404027
+                            ]
+                        },
+                        {
+                            "name": "splice_polypyrimidine_tract_variant",
+                            "data": [
+                                921
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                0.2023326471744828
+                            ]
+                        },
+                        {
+                            "name": "incomplete_terminal_codon_variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                0.00021968799910367296
+                            ]
+                        },
+                        {
+                            "name": "stop_retained_variant",
+                            "data": [
+                                1
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                0.00021968799910367296
+                            ]
+                        },
+                        {
+                            "name": "synonymous_variant",
+                            "data": [
+                                2325
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                0.5107745979160396
+                            ]
+                        },
+                        {
+                            "name": "coding_sequence_variant",
+                            "data": [
+                                6
+                            ],
+                            "color": "0.17,0.56,0.56",
+                            "data_pct": [
+                                0.0013181279946220378
+                            ]
+                        },
+                        {
+                            "name": "5_prime_UTR_variant",
+                            "data": [
+                                996
+                            ],
+                            "color": "0.96,0.36,0.36",
+                            "data_pct": [
+                                0.2188092471072583
+                            ]
+                        },
+                        {
+                            "name": "3_prime_UTR_variant",
+                            "data": [
+                                3895
+                            ],
+                            "color": "0.57,0.91,0.88",
+                            "data_pct": [
+                                0.8556847565088063
+                            ]
+                        },
+                        {
+                            "name": "non_coding_transcript_exon_variant",
+                            "data": [
+                                5541
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                1.217291203033452
+                            ]
+                        },
+                        {
+                            "name": "intron_variant",
+                            "data": [
+                                236756
+                            ],
+                            "color": "0.26,0.26,0.28",
+                            "data_pct": [
+                                52.01245191578919
+                            ]
+                        },
+                        {
+                            "name": "NMD_transcript_variant",
+                            "data": [
+                                16518
+                            ],
+                            "color": "0.56,0.93,0.49",
+                            "data_pct": [
+                                3.6288063691944696
+                            ]
+                        },
+                        {
+                            "name": "non_coding_transcript_variant",
+                            "data": [
+                                42976
+                            ],
+                            "color": "0.97,0.64,0.36",
+                            "data_pct": [
+                                9.441311449479448
+                            ]
+                        },
+                        {
+                            "name": "upstream_gene_variant",
+                            "data": [
+                                55282
+                            ],
+                            "color": "0.50,0.52,0.91",
+                            "data_pct": [
+                                12.14479196644925
+                            ]
+                        },
+                        {
+                            "name": "downstream_gene_variant",
+                            "data": [
+                                57538
+                            ],
+                            "color": "0.95,0.36,0.50",
+                            "data_pct": [
+                                12.640408092427135
+                            ]
+                        },
+                        {
+                            "name": "intergenic_variant",
+                            "data": [
+                                29231
+                            ],
+                            "color": "0.89,0.83,0.33",
+                            "data_pct": [
+                                6.421699901799465
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "data_labels": [
+                    "Consequences (most severe)",
+                    "Coding consequences",
+                    "Consequences (all)"
+                ],
+                "id": "consequences_all__plot",
+                "title": "VEP: Variant Consequences",
+                "ylab": "Consequences (most severe)"
+            }
+        },
+        "variants_by_chromosome_plot": {
+            "id": "variants_by_chromosome_plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 300,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "VEP: Variants by chromosome",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "variants_by_chromosome_plot",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "VEP: Variants by chromosome"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Number of variants"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 99933
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": false
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "1",
+                            "data": [
+                                99933
+                            ],
+                            "color": "0.49,0.71,0.93",
+                            "data_pct": [
+                                100.0
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": true,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "variants_by_chromosome_plot",
+                "title": "VEP: Variants by chromosome",
+                "ylab": "Number of variants",
+                "cpswitch_c_active": false
+            }
+        },
+        "position_in_protein_plot": {
+            "id": "position_in_protein_plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 330,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "VEP: Position in protein",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "position_in_protein_plot",
+                    "dconfig": {},
+                    "layout": {
+                        "title": {
+                            "text": "VEP: Position in protein"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Number of variants"
+                            },
+                            "hoverformat": ",.0f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 4658
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "cats": [
+                        {
+                            "name": "00-10%",
+                            "data": [
+                                407
+                            ],
+                            "color": "1.00,1.00,0.88",
+                            "data_pct": [
+                                8.737655646200086
+                            ]
+                        },
+                        {
+                            "name": "10-20%",
+                            "data": [
+                                430
+                            ],
+                            "color": "0.95,0.98,0.77",
+                            "data_pct": [
+                                9.23142979819665
+                            ]
+                        },
+                        {
+                            "name": "20-30%",
+                            "data": [
+                                478
+                            ],
+                            "color": "0.85,0.94,0.76",
+                            "data_pct": [
+                                10.26191498497209
+                            ]
+                        },
+                        {
+                            "name": "30-40%",
+                            "data": [
+                                422
+                            ],
+                            "color": "0.67,0.87,0.78",
+                            "data_pct": [
+                                9.05968226706741
+                            ]
+                        },
+                        {
+                            "name": "40-50%",
+                            "data": [
+                                453
+                            ],
+                            "color": "0.49,0.80,0.80",
+                            "data_pct": [
+                                9.725203950193215
+                            ]
+                        },
+                        {
+                            "name": "50-60%",
+                            "data": [
+                                439
+                            ],
+                            "color": "0.35,0.72,0.81",
+                            "data_pct": [
+                                9.424645770717046
+                            ]
+                        },
+                        {
+                            "name": "60-70%",
+                            "data": [
+                                540
+                            ],
+                            "color": "0.30,0.60,0.78",
+                            "data_pct": [
+                                11.5929583512237
+                            ]
+                        },
+                        {
+                            "name": "70-80%",
+                            "data": [
+                                506
+                            ],
+                            "color": "0.31,0.47,0.71",
+                            "data_pct": [
+                                10.863031343924431
+                            ]
+                        },
+                        {
+                            "name": "80-90%",
+                            "data": [
+                                506
+                            ],
+                            "color": "0.31,0.36,0.64",
+                            "data_pct": [
+                                10.863031343924431
+                            ]
+                        },
+                        {
+                            "name": "90-100%",
+                            "data": [
+                                477
+                            ],
+                            "color": "0.22,0.29,0.47",
+                            "data_pct": [
+                                10.240446543580935
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "chr1.imputed.poly_subset"
+                    ]
+                }
+            ],
+            "plot_type": "bar_graph",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "p_active": true,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "id": "position_in_protein_plot",
+                "title": "VEP: Position in protein",
+                "ylab": "Number of variants",
+                "cpswitch_c_active": false
+            }
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": false,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,0.5)",
+                        "size": 9
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "label": 1,
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": null
+                    },
+                    "layout": {
+                        "title": {
+                            "text": null
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "grey",
+                        "line": {
+                            "width": 2,
+                            "color": "grey"
+                        },
+                        "opacity": 0.5,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "metrics": [
+                        "mqc-generalstats-snpeff-Change_rate",
+                        "mqc-generalstats-snpeff-Ts_Tv_ratio",
+                        "mqc-generalstats-snpeff-Number_of_variants_before_filter"
+                    ],
+                    "header_by_metric": {
+                        "mqc-generalstats-snpeff-Change_rate": {
+                            "title": "Change rate",
+                            "description": "Change rate",
+                            "dmax": 2495.0,
+                            "dmin": 0.0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -12.475,
+                                    2507.537375
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false,
+                            "hoverformat": ".2f"
+                        },
+                        "mqc-generalstats-snpeff-Ts_Tv_ratio": {
+                            "title": "Ts/Tv",
+                            "description": "Transitions / Transversions ratio",
+                            "dmax": 2.431345,
+                            "dmin": 0,
+                            "suffix": "",
+                            "hidden": null,
+                            "modify": null,
+                            "xaxis": {
+                                "ticksuffix": "",
+                                "tickvals": null,
+                                "range": [
+                                    -0.012156725,
+                                    2.443562508625
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false,
+                            "hoverformat": ".2f"
+                        },
+                        "mqc-generalstats-snpeff-Number_of_variants_before_filter": {
+                            "title": "M Variants",
+                            "description": "Number of variants before filter (millions)",
+                            "dmax": 0.099893,
+                            "dmin": 0.0,
+                            "suffix": "M",
+                            "hidden": null,
+                            "xaxis": {
+                                "ticksuffix": "M",
+                                "tickvals": null,
+                                "range": [
+                                    -0.0004994649999999999,
+                                    0.10039496232499999
+                                ]
+                            },
+                            "show_points": true,
+                            "show_only_outliers": false,
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_values_by_sample_by_metric": {
+                        "mqc-generalstats-snpeff-Change_rate": {
+                            "chr1.imputed.poly_subset": 2495.0
+                        },
+                        "mqc-generalstats-snpeff-Ts_Tv_ratio": {
+                            "chr1.imputed.poly_subset": 2.431345
+                        },
+                        "mqc-generalstats-snpeff-Number_of_variants_before_filter": {
+                            "chr1.imputed.poly_subset": 0.099893
+                        }
+                    },
+                    "scatter_values_by_sample_by_metric": {
+                        "mqc-generalstats-snpeff-Change_rate": {},
+                        "mqc-generalstats-snpeff-Ts_Tv_ratio": {},
+                        "mqc-generalstats-snpeff-Number_of_variants_before_filter": {}
+                    },
+                    "all_samples": [
+                        "chr1.imputed.poly_subset"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6"
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white"
+                        }
+                    }
+                }
+            ],
+            "plot_type": "violin",
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "p_active": false,
+            "l_active": false,
+            "square": null,
+            "config": {
+                "table_title": "General Statistics",
+                "save_file": true,
+                "raw_data_fn": "multiqc_general_stats"
+            },
+            "static": true,
+            "violin_height": 70,
+            "extra_height": 63
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_snpeff": {
+            "chr1.imputed.poly_subset": {
+                "Genome": "GRCh37.75",
+                "Number_of_variants_before_filter": 99893.0,
+                "Number_of_known_variants (i.e. non-empty ID)": 99893.0,
+                "Number_of_known_variants (i.e. non-empty ID)_percent": 100.0,
+                "Number_of_effects": 405572.0,
+                "Genome_total_length": 32036512384.0,
+                "Genome_effective_length": 249250621.0,
+                "Change_rate": 2495.0,
+                "HIGH": 110.0,
+                "HIGH_percent": 0.027122,
+                "LOW": 3023.0,
+                "LOW_percent": 0.745367,
+                "MODERATE": 2157.0,
+                "MODERATE_percent": 0.531841,
+                "MODIFIER": 400282.0,
+                "MODIFIER_percent": 98.695669,
+                "MISSENSE": 2124.0,
+                "MISSENSE_percent": 48.928818,
+                "NONSENSE": 14.0,
+                "NONSENSE_percent": 0.322506,
+                "SILENT": 2203.0,
+                "SILENT_percent": 50.748675,
+                "Missense_Silent_ratio": 0.96414,
+                "Type": "Count",
+                "3_prime_UTR_variant": 3893.0,
+                "3_prime_UTR_variant_percent": 0.957989,
+                "5_prime_UTR_premature_start_codon_gain_variant": 143.0,
+                "5_prime_UTR_premature_start_codon_gain_variant_percent": 0.035189,
+                "5_prime_UTR_variant": 998.0,
+                "5_prime_UTR_variant_percent": 0.245588,
+                "conservative_inframe_deletion": 1.0,
+                "conservative_inframe_deletion_percent": 0.000246,
+                "conservative_inframe_insertion": 5.0,
+                "conservative_inframe_insertion_percent": 0.00123,
+                "disruptive_inframe_deletion": 30.0,
+                "disruptive_inframe_deletion_percent": 0.007382,
+                "disruptive_inframe_insertion": 7.0,
+                "disruptive_inframe_insertion_percent": 0.001723,
+                "downstream_gene_variant": 57524.0,
+                "downstream_gene_variant_percent": 14.155503,
+                "frameshift_variant": 31.0,
+                "frameshift_variant_percent": 0.007628,
+                "initiator_codon_variant": 1.0,
+                "initiator_codon_variant_percent": 0.000246,
+                "intergenic_region": 40265.0,
+                "intergenic_region_percent": 9.908409,
+                "intragenic_variant": 1.0,
+                "intragenic_variant_percent": 0.000246,
+                "intron_variant": 236724.0,
+                "intron_variant_percent": 58.253029,
+                "missense_variant": 2118.0,
+                "missense_variant_percent": 0.521197,
+                "non_coding_transcript_exon_variant": 6321.0,
+                "non_coding_transcript_exon_variant_percent": 1.555471,
+                "non_coding_transcript_variant": 5.0,
+                "non_coding_transcript_variant_percent": 0.00123,
+                "splice_acceptor_variant": 25.0,
+                "splice_acceptor_variant_percent": 0.006152,
+                "splice_donor_variant": 37.0,
+                "splice_donor_variant_percent": 0.009105,
+                "splice_region_variant": 765.0,
+                "splice_region_variant_percent": 0.188251,
+                "start_lost": 2.0,
+                "start_lost_percent": 0.000492,
+                "stop_gained": 14.0,
+                "stop_gained_percent": 0.003445,
+                "stop_lost": 4.0,
+                "stop_lost_percent": 0.000984,
+                "stop_retained_variant": 1.0,
+                "stop_retained_variant_percent": 0.000246,
+                "synonymous_variant": 2206.0,
+                "synonymous_variant_percent": 0.542852,
+                "upstream_gene_variant": 55251.0,
+                "upstream_gene_variant_percent": 13.596163,
+                "DOWNSTREAM": 57524.0,
+                "DOWNSTREAM_percent": 14.183425,
+                "EXON": 10577.0,
+                "EXON_percent": 2.607922,
+                "INTERGENIC": 40265.0,
+                "INTERGENIC_percent": 9.927954,
+                "INTRON": 236129.0,
+                "INTRON_percent": 58.221228,
+                "SPLICE_SITE_ACCEPTOR": 23.0,
+                "SPLICE_SITE_ACCEPTOR_percent": 0.005671,
+                "SPLICE_SITE_DONOR": 37.0,
+                "SPLICE_SITE_DONOR_percent": 0.009123,
+                "SPLICE_SITE_REGION": 726.0,
+                "SPLICE_SITE_REGION_percent": 0.179006,
+                "TRANSCRIPT": 6.0,
+                "TRANSCRIPT_percent": 0.001479,
+                "UPSTREAM": 55251.0,
+                "UPSTREAM_percent": 13.622982,
+                "UTR_3_PRIME": 3893.0,
+                "UTR_3_PRIME_percent": 0.959879,
+                "UTR_5_PRIME": 1141.0,
+                "UTR_5_PRIME_percent": 0.281331,
+                "Transitions": 13735405.0,
+                "Transversions": 5649304.0,
+                "Ts_Tv_ratio": 2.431345,
+                "Het": 14241.0,
+                "Hom": 8981.0,
+                "Missing": 0.0
+            }
+        },
+        "vep": {
+            "chr1.imputed.poly_subset": {
+                "Variant classes": {
+                    "copy_number_variation": 1,
+                    "LINE1_insertion": 2,
+                    "indel": 3,
+                    "SVA_insertion": 4,
+                    "Alu_insertion": 16,
+                    "duplication": 17,
+                    "substitution": 81,
+                    "insertion": 3944,
+                    "deletion": 5616,
+                    "SNV": 90249
+                },
+                "Consequences (most severe)": {
+                    "splice_acceptor_variant": 12,
+                    "splice_donor_variant": 11,
+                    "stop_gained": 6,
+                    "frameshift_variant": 17,
+                    "stop_lost": 3,
+                    "start_lost": 2,
+                    "feature_elongation": 22,
+                    "inframe_insertion": 5,
+                    "inframe_deletion": 7,
+                    "missense_variant": 950,
+                    "splice_donor_5th_base_variant": 12,
+                    "splice_region_variant": 165,
+                    "splice_donor_region_variant": 46,
+                    "splice_polypyrimidine_tract_variant": 167,
+                    "stop_retained_variant": 1,
+                    "synonymous_variant": 801,
+                    "5_prime_UTR_variant": 484,
+                    "3_prime_UTR_variant": 1829,
+                    "non_coding_transcript_exon_variant": 2631,
+                    "intron_variant": 52482,
+                    "upstream_gene_variant": 6472,
+                    "downstream_gene_variant": 4577,
+                    "intergenic_variant": 29231
+                },
+                "Consequences (all)": {
+                    "splice_acceptor_variant": 24,
+                    "splice_donor_variant": 41,
+                    "stop_gained": 15,
+                    "frameshift_variant": 28,
+                    "stop_lost": 4,
+                    "start_lost": 3,
+                    "feature_elongation": 80,
+                    "inframe_insertion": 14,
+                    "inframe_deletion": 28,
+                    "missense_variant": 2234,
+                    "splice_donor_5th_base_variant": 49,
+                    "splice_region_variant": 574,
+                    "splice_donor_region_variant": 110,
+                    "splice_polypyrimidine_tract_variant": 921,
+                    "incomplete_terminal_codon_variant": 1,
+                    "stop_retained_variant": 1,
+                    "synonymous_variant": 2325,
+                    "coding_sequence_variant": 6,
+                    "5_prime_UTR_variant": 996,
+                    "3_prime_UTR_variant": 3895,
+                    "non_coding_transcript_exon_variant": 5541,
+                    "intron_variant": 236756,
+                    "NMD_transcript_variant": 16518,
+                    "non_coding_transcript_variant": 42976,
+                    "upstream_gene_variant": 55282,
+                    "downstream_gene_variant": 57538,
+                    "intergenic_variant": 29231
+                },
+                "Coding consequences": {
+                    "stop_gained": 15,
+                    "frameshift_variant": 28,
+                    "stop_lost": 4,
+                    "start_lost": 3,
+                    "inframe_insertion": 14,
+                    "inframe_deletion": 28,
+                    "missense_variant": 2234,
+                    "incomplete_terminal_codon_variant": 1,
+                    "stop_retained_variant": 1,
+                    "synonymous_variant": 2325,
+                    "coding_sequence_variant": 6
+                },
+                "Variants by chromosome": {
+                    "1": 99933
+                },
+                "Position in protein": {
+                    "00-10%": 407,
+                    "10-20%": 430,
+                    "20-30%": 478,
+                    "30-40%": 422,
+                    "40-50%": 453,
+                    "50-60%": 439,
+                    "60-70%": 540,
+                    "70-80%": 506,
+                    "80-90%": 506,
+                    "90-100%": 477
+                },
+                "General statistics": {
+                    "Lines of input read": 99975,
+                    "Variants processed": 99933,
+                    "Variants filtered out": 0,
+                    "Overlapped genes": 565,
+                    "Overlapped transcripts": 2007,
+                    "Overlapped regulatory features": 0
+                }
+            }
+        },
+        "multiqc_general_stats": {
+            "chr1.imputed.poly_subset": {
+                "SnpEff_mqc-generalstats-snpeff-Change_rate": 2495.0,
+                "SnpEff_mqc-generalstats-snpeff-Ts_Tv_ratio": 2.431345,
+                "SnpEff_mqc-generalstats-snpeff-Number_of_variants_before_filter": 99893.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/annotated"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2024-05-23, 11:00 EDT",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/.snakemake/conda/5ac704564f0cdc3c47fdc6b1a9f0b5bd_/lib/python3.11/site-packages/multiqc/utils",
+    "config_short_version": "1.21",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.21",
+    "config_output_dir": "/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/annotated"
+}
