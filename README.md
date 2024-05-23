@@ -1,6 +1,8 @@
 # VEP
  
-## this Snakemake workflow initializes all needed environments and reference files (hg19) to annotate vcfs with Ensembl Variant Effect Predictor (VEP):  
+## this Snakemake workflow initializes all needed environments and reference files (hg19) to annotate vcfs with Ensembl Variant Effect Predictor (VEP) and SNPeff:  
+
+### example multiqc in annotated/multiqc_report.html
 
 # Start the Workflow:  
 within the repo issue:  
