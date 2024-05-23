@@ -4,4 +4,5 @@ benchmarks/
 logs/
 ref_seq/
 resources/snpeff/
-vcfs/
+vcfs/*
+!vcfs/.gitkeep
