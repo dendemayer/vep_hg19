@@ -151,5 +151,5 @@ rule running_multiqc:
     conda:
         "envs/multiqc.yaml"
     shell:
-        "cd annotated && multiqc . --interactive"
+        "cd annotated && multiqc . --interactive -f"
      
