@@ -1,0 +1,17 @@
+# the references and annotations are downloaded from https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/
+# (see the downloadscript scripts/download_refs.sh)
+ref_file:
+  - GRCh37.p13.genome
+
+ref_file_fa:
+  - GRCh37.p13.genome.fa
+
+annotation_file:
+  - gencode.v19.annotation
+
+annotation_type:
+  - gff3
+  - gtf
+
+chromosomes:
+  - chr1

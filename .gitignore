@@ -1,0 +1,7 @@
+/annotated/
+.snakemake/
+benchmarks/
+logs/
+ref_seq/
+resources/snpeff/
+vcfs/
