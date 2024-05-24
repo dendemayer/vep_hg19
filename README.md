@@ -7,7 +7,7 @@
 # Start the Workflow:  
 within the repo issue:  
 ```bash
-snakemake -p --cores 40 --reason --use-conda                                                                                                               ±[●●][master]
+snakemake -p --cores 40 --use-conda                                                                                                               ±[●●][master]
 ```
 
 the vcfs have to be placed within the vcfs dir like:  

@@ -6,3 +6,4 @@ ref_seq/
 resources/snpeff/
 vcfs/*
 !vcfs/.gitkeep
+temp/
