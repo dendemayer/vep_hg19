@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-SnpEff	all_sections	chr1.imputed.poly_subset	/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/annotated/snpeff/chr1.imputed.poly_subset.csv
-VEP	all_sections	chr1.imputed.poly_subset	/scr/dings/PEVO/22_DNA_gencode_ref_new2/anne_vep/annotated/vep/chr1.imputed.poly_subset.vep.html

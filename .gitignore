@@ -1,4 +1,4 @@
-/annotated/
+#/annotated/
 .snakemake/
 benchmarks/
 logs/
@@ -6,4 +6,8 @@ ref_seq/
 resources/snpeff/
 vcfs/*
 !vcfs/.gitkeep
+annotated/*
+!annotated/vcfs_sample_split/multiqc_report.html
+!annotated/vcfs/multiqc_report.html
 temp/
+vcfs_sample_split/

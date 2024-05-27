@@ -1,9 +1,12 @@
 configfile: 'config.yaml'
 
+chr_sample_combinations = [i + '_' + j for i in  config['chromosomes'] for j in config['samples']]
 rule all:
     input:
-        #expand("annotated/{annotater}/{chr}.imputed.poly_subset.vcf.gz", chr=config['chromosomes'], annotater=['vep', 'snpeff']),
-        "annotated/multiqc_report.html",
+        "annotated/vcfs/multiqc_report.html",
+        # requesting this multiqc triggers about 1400 jobs:
+        #"annotated/vcfs_sample_split/multiqc_report.html"
+        expand("annotated/vcfs/{annotater}/{chr}.imputed.poly_subset_peptid_filtered.vcf.gz", annotater=['vep', 'snpeff'], chr=config['chromosomes']),
 
 rule download_md5sums:
     output:
@@ -60,6 +63,23 @@ rule sort_gff_file:
         "gff3sort.pl {input} > {output.sort} && "
         "bgzip -kf -@ {threads} {output.sort} && tabix -p gff {output.gz}"
 
+rule limit_gff_to_gene:
+    input:
+        "ref_seq/{annot_file}_sorted.gff3",
+    output:
+        "ref_seq/{annot_file}_sorted_gene.gff3",
+    shell:
+        "grep -w gene {input} > {output}"
+
+rule limit_gff_to_peptid:
+    input:
+        gff = "ref_seq/{annot_file}_sorted_gene.gff3",
+        peptid = "resources/Peptide-receptor-gut_Tabelle1.tsv"
+    output:
+        "ref_seq/{annot_file}_sorted_gene_peptid.gff3"
+    shell:
+        "grep -f {input.peptid} {input.gff} > {output}"
+
 rule samtools_index_ref:
     input:
         "ref_seq/{ref_file}.fa",
@@ -76,7 +96,7 @@ rule samtools_index_ref:
 
 rule vep_annotate_variants_wrapper:
     input:
-        calls="vcfs/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf
+        calls="{vcf_type}/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf
         #cache="resources/vep/cache",  # can be omitted if fasta and gff are specified
         plugins="resources/VEP_plugins",
         # optionally add reference genome fasta
@@ -94,18 +114,18 @@ rule vep_annotate_variants_wrapper:
         # aux files must be defined as following: "<plugin> = /path/to/file" where plugin must be in lowercase
         # revel = path/to/revel_scores.tsv.gz
     output:
-        calls="annotated/vep/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf stats="vep/variants.html",
+        calls="annotated/{vcf_type}/vep/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf stats="vep/variants.html",
         #--stats_file [SAMPLE_NAME].vep.html (without the vep or summary suffix, MultiQC will ignore the HTML files)
-        stats='annotated/vep/{chr}.imputed.poly_subset.vep.html',
+        stats='annotated/{vcf_type}/vep/{chr}.imputed.poly_subset.vep.html',
     params:
         # Pass a list of plugins to use, see https://www.ensembl.org/info/docs/tools/vep/script/vep_plugins.html
         # Plugin args can be added as well, e.g. via an entry "MyPlugin,1,FOO", see docs.
         plugins=["LoFtool"],
         extra="--everything",  # optional: extra arguments
     benchmark: 
-        "benchmarks/vep/{chr}_benchmark.log"
+        "benchmarks/vep/{vcf_type}/{chr}_benchmark.log"
     log:
-        "logs/vep/{chr}.log",
+        "logs/vep/{vcf_type}_{chr}.log",
     threads: 40
     wrapper:
         "v3.10.2/bio/vep/annotate"
@@ -129,27 +149,65 @@ rule snpeff_download:
 
 rule snpeff_wrapper:
     input:
-        calls="vcfs/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf
+        calls="{vcf_type}/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf
         db="resources/snpeff/GRCh37.75" # path to reference db downloaded with the snpeff download wrapper
     output:
-        stats="annotated/snpeff/{chr}.imputed.poly_subset.html",  # summary statistics (in HTML), optional
-        calls="annotated/snpeff/{chr}.imputed.poly_subset.vcf.gz",   # annotated calls (vcf, bcf, or vcf.gz)
-        csvstats="annotated/snpeff/{chr}.imputed.poly_subset.csv", # summary statistics in CSV, optional
+        stats="annotated/{vcf_type}/snpeff/{chr}.imputed.poly_subset.html",  # summary statistics (in HTML), optional
+        calls="annotated/{vcf_type}/snpeff/{chr}.imputed.poly_subset.vcf.gz",   # annotated calls (vcf, bcf, or vcf.gz)
+        csvstats="annotated/{vcf_type}/snpeff/{chr}.imputed.poly_subset.csv", # summary statistics in CSV, optional
     log:
-        "logs/snpeff/{chr}.log"
+        "logs/snpeff/{vcf_type}_{chr}.log"
     resources:
         java_opts="-XX:ParallelGCThreads=10",
         mem_mb=4096
+    threads:
+        3
     wrapper:
         "v3.10.2/bio/snpeff/annotate"
 
 rule running_multiqc:
     input:
-        expand("annotated/{annotater}/{chr}.imputed.poly_subset.vcf.gz", chr=config['chromosomes'], annotater=['vep', 'snpeff']),
+        expand("annotated/vcfs/{annotater}/{chr}.imputed.poly_subset.vcf.gz", chr=config['chromosomes'], annotater=['vep', 'snpeff']),
     output:
-        "annotated/multiqc_report.html"
+        "annotated/vcfs/multiqc_report.html"
     conda:
         "envs/multiqc.yaml"
     shell:
-        "cd annotated && multiqc . --interactive -f"
+        "cd annotated/vcfs && multiqc . --interactive -f"
+
+rule running_multiqc_split:
+    input:
+        expand("annotated/vcfs_sample_split/{annotater}/{chr}.imputed.poly_subset.vcf.gz", chr=chr_sample_combinations, annotater=['vep', 'snpeff']),
+    output:
+        "annotated/vcfs_sample_split/multiqc_report.html"
+    conda:
+        "envs/multiqc.yaml"
+    shell:
+        "cd annotated/vcfs_sample_split && multiqc . --interactive -f"
      
+rule split_vcfs:
+    input:
+        vcf = "vcfs/{chr}.imputed.poly_subset.vcf.gz",
+    output:
+        vcf_out = "vcfs_sample_split/{chr}_{sample}.imputed.poly_subset.vcf.gz"
+    conda:
+        "envs/pandas.yaml"
+    log:
+        "logs/split_vcfs/{chr}_{sample}.log"
+    script:
+        "scripts/split_vcfs.py"
+
+rule filter_peptid_table:
+    """
+    filter the annotated vcfs on the given peptid table, works for both, snpeff and vep
+    """
+    input:
+        vcf = "annotated/{vcf_type}/{annotater}/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf stats="vep/variants.html",
+        peptid_table = "resources/Peptide-receptor-gut_Tabelle1.tsv"
+    output:
+        "annotated/{vcf_type}/{annotater}/{chr}.imputed.poly_subset_peptid_filtered.vcf.gz",  # .vcf, .vcf.gz or .bcf stats="vep/variants.html",
+    conda:
+        "envs/bcftools.yaml"
+    shell:
+        # start writing the header from the given annotated vcf:
+        "bcftools view -h {input.vcf} | gzip > {output} && fgrep -if {input.peptid_table} <(bcftools view -H {input.vcf}) | gzip >> {output}"
