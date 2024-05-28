@@ -201,6 +201,7 @@ rule split_vcfs:
 rule filter_peptid_table:
     """
     filter the annotated vcfs on the given peptid table, works for both, snpeff and vep
+    additionally filter on protein_coding flag within annotated vcfs:
     """
     input:
         vcf = "annotated/{vcf_type}/{annotater}/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf stats="vep/variants.html",
@@ -211,4 +212,4 @@ rule filter_peptid_table:
         "envs/bcftools.yaml"
     shell:
         # start writing the header from the given annotated vcf:
-        "bcftools view -h {input.vcf} | gzip > {output} && fgrep -if {input.peptid_table} <(bcftools view -H {input.vcf}) | gzip >> {output}"
+        "bcftools view -h {input.vcf} | gzip > {output} && fgrep -if {input.peptid_table} <(bcftools view -H {input.vcf}) | fgrep protein_coding | gzip >> {output}"
