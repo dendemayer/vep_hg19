@@ -1,6 +1,998 @@
-WARNING: 157015 : WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v19.annotation_sorted.gff3.gz
-WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v19.annotation_sorted.gff3.gz
-WARNING: Ignoring non-supported 'UTR' feature_type from ref_seq/gencode.v19.annotation_sorted.gff3.gz
-WARNING: 157014 : WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v19.annotation_sorted.gff3.gz
-WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v19.annotation_sorted.gff3.gz
-WARNING: Ignoring non-supported 'UTR' feature_type from ref_seq/gencode.v19.annotation_sorted.gff3.gz
+WARNING: line 457 skipped (1 766600 1:766600:G:<CN0> G <CN0> . PASS AF=0....): deletion looks incomplete
+WARNING: line 492 skipped (1 775292 1:775292:T:<CN0> T <CN0> . PASS AF=0....): deletion looks incomplete
+WARNING: line 3299 skipped (1 1142714 1:1142714:T:<CN0> T <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32647 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32646 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32648 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32654 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32644 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32655 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32663 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32658 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32659 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32667 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32666 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32662 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 5031 skipped (1 1388953 1:1388953:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 5072 skipped (1 1392382 1:1392382:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 5086 skipped (1 1393861 1:1393861:T:<CN0> T <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 5130 skipped (1 1400225 1:1400225:C:<CN0> C <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 6358 skipped (1 1626665 1:1626665:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 6362 skipped (1 1627805 1:1627805:A:<CN0> A <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 6498 skipped (1 1649047 1:1649047:T:<CN0> T <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 6503 skipped (1 1649620 1:1649620:C:<CN0> C <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32691 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32695 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32693 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32698 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32699 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32701 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32694 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32702 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32700 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32703 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32705 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32704 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32714 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32711 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32716 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32715 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32712 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32713 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32717 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32718 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32719 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32720 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32721 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32722 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32723 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32724 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32725 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32726 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32729 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32728 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32727 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32731 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32732 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32734 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32733 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32740 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32739 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32741 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32742 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32743 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32744 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32745 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32746 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32747 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32748 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32738 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32737 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 29284 skipped (1 4882232 1:4882232:T:<CN0> T <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32750 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32749 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32751 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32754 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32753 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32752 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32755 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32756 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32757 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32758 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32760 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32759 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 30634 skipped (1 5063288 1:5063288:C:<CN0> C <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32763 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32764 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32765 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32766 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32767 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32768 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32769 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32770 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32772 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32771 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32774 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32773 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32775 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32776 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32779 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32780 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32777 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32790 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32789 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32792 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32791 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32795 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32794 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32778 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 40028 skipped (1 6434482 1:6434482:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 40049 skipped (1 6438160 1:6438160:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32798 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32797 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32800 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32799 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32802 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32801 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32808 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32809 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32806 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32807 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32812 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32811 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 46468 skipped (1 7570074 1:7570074:A:<CN0> A <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 48488 skipped (1 7908795 1:7908795:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32813 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32816 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32814 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32817 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32820 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32819 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32818 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32822 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32821 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32823 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32824 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32815 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 51268 skipped (1 8360182 1:8360182:G:<CN0> G <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 54956 skipped (1 9134134 1:9134134:A:<CN0> A <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32832 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32835 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32833 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32837 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32836 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32834 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32838 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32839 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32840 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32841 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32843 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32842 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 58051 skipped (1 9579119 1:9579119:A:<CN0> A <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 58055 skipped (1 9579979 1:9579979:A:<CN0> A <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: line 58126 skipped (1 9595360 1:9595360:A:<CN0> A <CN0> . PASS AF=...): deletion looks incomplete
+WARNING: 32846 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32844 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32845 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32847 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32850 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32851 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32849 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32852 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32853 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32855 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32854 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32848 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 61317 skipped (1 10249536 1:10249536:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 61363 skipped (1 10254795 1:10254795:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 62599 skipped (1 10482499 1:10482499:G:<CN0> G <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32861 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32858 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32863 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32862 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32865 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32864 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32866 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32867 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32860 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32868 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32869 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32859 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 65433 skipped (1 10954251 1:10954251:G:<CN0> G <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 65525 skipped (1 10968337 1:10968337:T:<CN0> T <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 65634 skipped (1 10981542 1:10981542:T:<CN0> T <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 66210 skipped (1 11060112 1:11060112:A:<CN0> A <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 69376 skipped (1 11682873 1:11682873:T:<CN0> T <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32882 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32878 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32883 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32884 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32886 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32881 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32885 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32889 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32888 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32891 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32890 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32880 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 71690 skipped (1 11988599 1:11988599:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32900 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32898 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32892 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32901 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32899 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32902 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32905 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32904 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32907 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32906 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32909 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32908 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 76430 skipped (1 12842004 1:12842004:A:<CN0> A <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 76521 skipped (1 12854895 1:12854895:G:<CN0> G <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 76545 skipped (1 12856327 1:12856327:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 76967 skipped (1 12877893 1:12877893:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 77104 skipped (1 12893536 1:12893536:A:<CN0> A <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 77115 skipped (1 12896438 1:12896438:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 77196 skipped (1 12901370 1:12901370:G:<CN0> G <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32910 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32911 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32912 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32914 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32915 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32913 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32916 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32917 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32921 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32918 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32920 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32919 : WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 83017 skipped (1 14437074 1:14437074:T:<CN0> T <CN0> . PASS A...): deletion looks incomplete
+WARNING: line 83019 skipped (1 14437868 1:14437868:A:<CN0> A <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32927 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32929 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32930 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32931 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32932 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32933 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32935 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32934 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32936 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32937 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32939 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32938 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32940 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32943 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32941 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32942 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32944 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32946 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32947 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32945 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32955 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32954 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32953 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32952 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 94924 skipped (1 16151682 1:16151682:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32958 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32961 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32960 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32959 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32965 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32962 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32963 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32966 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32964 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32967 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32969 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32968 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: line 99624 skipped (1 17361016 1:17361016:C:<CN0> C <CN0> . PASS A...): deletion looks incomplete
+WARNING: 32980 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32982 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32981 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32983 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32986 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32987 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32985 : WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32988 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32989 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32990 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32992 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: 32991 : WARNING: Ignoring non-supported 'stop_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'start_codon' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'five_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz
+WARNING: Ignoring non-supported 'three_prime_UTR' feature_type from ref_seq/gencode.v46.annotation_sorted.gff3.gz

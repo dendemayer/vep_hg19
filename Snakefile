@@ -6,6 +6,7 @@ rule all:
         "annotated/vcfs/multiqc_report.html",
         # requesting this multiqc triggers about 1400 jobs:
         #"annotated/vcfs_sample_split/multiqc_report.html"
+        # those are the peptid list filtered annotated vcfs:
         expand("annotated/vcfs/{annotater}/{chr}.imputed.poly_subset_peptid_filtered.vcf.gz", annotater=['vep', 'snpeff'], chr=config['chromosomes']),
 
 rule download_md5sums:
@@ -126,7 +127,7 @@ rule vep_annotate_variants_wrapper:
         "benchmarks/vep/{vcf_type}/{chr}_benchmark.log"
     log:
         "logs/vep/{vcf_type}_{chr}.log",
-    threads: 40
+    threads: 3
     wrapper:
         "v3.10.2/bio/vep/annotate"
 
@@ -150,7 +151,7 @@ rule snpeff_download:
 rule snpeff_wrapper:
     input:
         calls="{vcf_type}/{chr}.imputed.poly_subset.vcf.gz",  # .vcf, .vcf.gz or .bcf
-        db="resources/snpeff/GRCh37.75" # path to reference db downloaded with the snpeff download wrapper
+        db="resources/snpeff/GRCh38.p14" # path to reference db downloaded with the snpeff download wrapper
     output:
         stats="annotated/{vcf_type}/snpeff/{chr}.imputed.poly_subset.html",  # summary statistics (in HTML), optional
         calls="annotated/{vcf_type}/snpeff/{chr}.imputed.poly_subset.vcf.gz",   # annotated calls (vcf, bcf, or vcf.gz)

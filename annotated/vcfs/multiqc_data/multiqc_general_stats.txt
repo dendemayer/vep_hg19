@@ -1,2 +1,0 @@
-Sample	SnpEff_mqc-generalstats-snpeff-Change_rate	SnpEff_mqc-generalstats-snpeff-Ts_Tv_ratio	SnpEff_mqc-generalstats-snpeff-Number_of_variants_before_filter
-chr1.imputed.poly_subset	2495.0	2.431345	99893.0

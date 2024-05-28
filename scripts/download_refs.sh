@@ -2,7 +2,8 @@
 
 # this scripts takes 
 file=$1
-wget --no-clobber --directory-prefix=ref_seq https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/$file
+wget --no-clobber --directory-prefix=ref_seq https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_46/$file
+
 file=ref_seq/$file
 echo file to download is $file
 MD5SUM=$(md5sum $file | cut -d' ' -f1)
