@@ -8,6 +8,8 @@ rule all:
         #"annotated/vcfs_sample_split/multiqc_report.html"
         # those are the peptid list filtered annotated vcfs:
         expand("annotated/vcfs/{annotater}/{chr}.imputed.poly_subset_peptid_filtered.vcf.gz", annotater=['vep', 'snpeff'], chr=config['chromosomes']),
+        # additional filters can be applied to the annotated vcfs:
+        expand("annotated/vcfs/{annotater}/{chr}.imputed.poly_subset_peptid_filtered_protein_coding.vcf.gz", annotater=['vep', 'snpeff'], chr=config['chromosomes']),
 
 rule download_md5sums:
     output:
@@ -210,6 +212,27 @@ rule filter_peptid_table:
         "annotated/{vcf_type}/{annotater}/{chr}.imputed.poly_subset_peptid_filtered.vcf.gz",  # .vcf, .vcf.gz or .bcf stats="vep/variants.html",
     conda:
         "envs/bcftools.yaml"
+    params:
+        temp = "annotated/{vcf_type}/{annotater}/{chr}.temp"
     shell:
-        # start writing the header from the given annotated vcf:
-        "bcftools view -h {input.vcf} | gzip > {output} && fgrep -if {input.peptid_table} <(bcftools view -H {input.vcf}) | fgrep protein_coding | gzip >> {output}"
+        """
+        fgrep -iwf {input.peptid_table} <(bcftools view -H {input.vcf}) > {params.temp} || true
+        cat <(bcftools view -h {input.vcf}) {params.temp} | gzip > {output}
+        rm -r {params.temp}
+        """
+
+rule filter_annotation_flag:
+    input:
+        "annotated/{vcf_type}/{annotater}/{chr}.imputed.poly_subset_peptid_filtered.vcf.gz",
+    output:
+        "annotated/{vcf_type}/{annotater}/{chr}.imputed.poly_subset_peptid_filtered_{flag}.vcf.gz",
+    conda:
+        "envs/bcftools.yaml"
+    params:
+        temp = "annotated/{vcf_type}/{annotater}/{chr}_{flag}.temp"
+    shell:
+        """
+        fgrep -iw {wildcards.flag} <(bcftools view -H {input}) > {params.temp} || true
+        cat <(bcftools view -h {input}) {params.temp} | gzip > {output}
+        rm -r {params.temp}
+        """
